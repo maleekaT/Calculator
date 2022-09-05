@@ -1,0 +1,48 @@
+body {
+   /*  background: #00B4DB;  
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6
+    background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background: #948E99;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2E1437, #948E99);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2E1437, #948E99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container {
+    height: 67vh;
+    width: 345px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+}
+
+button {
+    height: 75px;
+    width: 83px;
+    font-size: 24px;
+}
+
+#resultat {
+    height: 120px;
+    width: 335px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    font-size: 40px;
+    text-align: right;
+
+}
+
+#N {
+    background-color: transparent; 
+    border: none;
+    outline: none;
+    opacity: 0;
+}
+
+button:not(#resultat):hover {
+    box-shadow: 0 0 40px 40px #2E1437 inset;
+    color: white;
+}
